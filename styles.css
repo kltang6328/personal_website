@@ -1,0 +1,153 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppin', Sans-Serif;
+	background: rgb(23, 213, 209);
+	background: linear-gradient(45deg, rgb(23, 213, 209) 0%, rgb(253, 223, 70) 100%);
+	color: #212121;
+}
+
+main {
+	width: 720px;
+	margin: 40px auto;
+	background-color: #fff;
+	border: 1px solid #f4f6f7;
+	border-radius: 16px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	display: flex;
+	flex-direction: column;
+}
+
+section {
+	padding: 40px;
+}
+
+a,
+a:active,
+a:visited {
+	color: #212121;
+}
+
+a:hover {
+	color: #0067f4;
+	font-weight: 500;
+}
+
+h1 {
+	font-size: 1.5rem;
+	color: black;
+}
+
+h2 {
+	font-size: 1.25rem;
+}
+
+h3 {
+	font-size: 1rem;
+}
+
+.button {
+	border: none;
+	border-radius: 20px;
+	color: white;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 1px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.button1 {
+	background-color: white;
+	color: black;
+	border: 2px solid #87e8af;
+}
+
+.button1:hover {
+	background-color: #87e8af;
+	color: white;
+}
+
+.profile-info {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.profile-info>img {
+	width: 40%;
+	object-fit: contain;
+	background-color: #f4f6f7;
+	margin-right: 40px;
+}
+
+.profile-info>div {
+	flex-grow: 1;
+}
+
+.profile-info>div>div {
+	margin: 16px 0;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.75;
+	hyphens: auto;
+}
+
+.profile-info>div>div>label {
+	font-size: 14px;
+	color: #696969;
+}
+
+/* Links */
+.profile-info .links-container {
+	margin-top: 0;
+	padding-inline-start: 0;
+	list-style: none;
+}
+
+.profile-info .links-container>li {
+	margin-right: 16px;
+	vertical-align: middle;
+}
+
+/* Send Me a Message Button */
+.profile-info button {
+	background-color: #fff;
+	border: 1px solid #0c1440;
+	color: #0c1440;
+	padding: 8px;
+	font-size: 16px;
+}
+
+.profile-info button:hover {
+	border-color: #0067f4;
+	color: #0067f4;
+}
+
+@media only screen and (max-width: 760px) {
+	main {
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	section {
+		padding: 40px 20px 0;
+	}
+
+	.profile-info {
+		flex-flow: column;
+		align-items: center;
+	}
+
+	.profile-info>img {
+		margin-right: 0;
+	}
+
+	.profile-info>div {
+		text-align: center;
+	}
+}
