@@ -1,11 +1,6 @@
-Enter Project Name
-==================
-## What this project does
+## My Personal Website
 
-## Why this project is useful
+Created using Qoom
 
-## How we built this 
+Check it out [here](https://tinyurl.com/kaylatang)
 
-## Accomplishments that we are proud of 
-
-## What is next for this project
