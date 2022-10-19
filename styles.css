@@ -10,8 +10,8 @@ body {
 }
 
 main {
-	width: 720px;
-	margin: 40px auto;
+
+	margin: auto auto 20px auto;
 	background-color: #fff;
 	border: 1px solid #f4f6f7;
 	border-radius: 16px;
@@ -42,10 +42,12 @@ h1 {
 
 h2 {
 	font-size: 1.25rem;
+	color: black;
 }
 
 h3 {
 	font-size: 1rem;
+	color: darkgreen;
 }
 
 .button {
